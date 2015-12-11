@@ -139,7 +139,53 @@ body {
 .feature-wrapper {
   background-color: #fff;
   width: 100%;
-  height: 399px;
+}
+
+.feature-wrapper .features-container {
+  padding: 80px 10px;
+}
+
+.feature-wrapper .features-container .features {
+  margin: 0 auto;
+  max-width: 73.125em;
+}
+
+.features .features-l {
+  float: left;
+  width: 50%;
+}
+
+.features .features-r {
+  float: right;
+  width: 50%;
+}
+
+.clean-design, .branding, .responsive, .development {
+  padding: 100px 0 0 0;
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  text-align: center;
+  width: 50%;
+}
+
+.clean-design {
+  float: left;
+  background-image: url('../images/clean-design.png');
+}
+
+.branding {
+  background-image: url('../images/branding.png');
+  float: right;
+}
+
+.responsive {
+  background-image: url('../images/responsive.png');
+  float: left;
+}
+
+.development {
+  background-image: url('../images/dev.png');
+  float: right;
 }
 
 .counter-wrapper {
