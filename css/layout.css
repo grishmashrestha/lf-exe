@@ -9,7 +9,6 @@ body {
 }
 
 .header-wrapper {
-  background-color: #fff;
   width: 100%;
 }
 
@@ -85,10 +84,10 @@ body {
   background-color: #fff;
   width: 100%;
   height: 707px;
-  background-image: url('../images/slider-background.png');
-  background-repeat: none;
-  background-size: cover;
 }
+
+
+
 
 .slogan-wrapper {
   background-color: #e5493a;
