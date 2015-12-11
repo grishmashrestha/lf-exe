@@ -113,7 +113,27 @@ body {
 .slogan-wrapper {
   background-color: #e5493a;
   width: 100%;
-  height: 158px;
+}
+
+.slogan-wrapper .slogan-container {
+  padding: 40px 10px 56px 10px;
+}
+
+.slogan-wrapper .slogan-container .slogan p {
+  margin: 0 auto;
+  max-width: 73.125em;
+  text-align: center;
+  color: #fff;
+}
+
+.slogan-wrapper .slogan-container .slogan .head {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.slogan-wrapper .slogan-container .slogan .sub-head {
+  font-size: 20px;
+  line-height: 32px;
 }
 
 .feature-wrapper {
