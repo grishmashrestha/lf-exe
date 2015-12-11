@@ -81,13 +81,34 @@ body {
 }
 
 .slider-wrapper {
-  background-color: #fff;
   width: 100%;
+}
+
+.sliderContainer {
+  overflow: hidden;
+}
+
+.sliderLong {
+  width: 9600px;
+}
+
+.sliderLong .sliderEl {
+  float: left;
+  width: 1920px;
   height: 707px;
 }
 
+.sliderLong .sliderEl1 {
+  background-image: url('../images/slider2.png');
+  background-position: 100% 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
-
+.sliderLong .sliderEl .sliderDesc {
+  margin: 0 auto;
+  max-width: 73.125em;
+}
 
 .slogan-wrapper {
   background-color: #e5493a;
