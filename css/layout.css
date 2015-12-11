@@ -36,6 +36,10 @@ body {
   padding: 0 21px; 
 }
 
+.header .menu ul li:first-child {
+  padding-left: 0;
+}
+
 .header .menu ul li:hover a {
   color: #e5493a;
 }
@@ -65,14 +69,16 @@ body {
   background-color: #e5493a;
 }
 
-.header .menu ul li.active a {
-  color: #e5493a;
-}
-
 .header .menu ul li a {  
   text-decoration: none;
   color: #565656;
   font-weight: bold; 
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.header .menu ul li.active a {
+  color: #e5493a;
 }
 
 .slider-wrapper {
