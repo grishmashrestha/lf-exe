@@ -168,24 +168,33 @@ body {
   width: 50%;
 }
 
-.clean-design {
+.features .features-l .clean-design {
   float: left;
   background-image: url('../images/clean-design.png');
 }
 
-.branding {
+.features .features-l .branding {
   background-image: url('../images/branding.png');
   float: right;
 }
 
-.responsive {
+.features .features-r .responsive {
   background-image: url('../images/responsive.png');
   float: left;
 }
 
-.development {
+.features .features-r .development {
   background-image: url('../images/dev.png');
   float: right;
+}
+
+.clean-design .bot-li, .branding .bot-li, .responsive .bot-li, .development .bot-li {
+  background-color: #e5493a;
+  width: 70px;
+  height: 2px;
+  bottom: 0;
+  left: 50%;
+  margin: 0 auto;
 }
 
 .counter-wrapper {
