@@ -162,7 +162,7 @@ body {
 }
 
 .clean-design, .branding, .responsive, .development {
-  padding: 100px 0 0 0;
+  padding: 99px 0 0 0;
   background-repeat: no-repeat;
   background-position: 50% 0;
   text-align: center;
@@ -206,16 +206,17 @@ body {
 }
 
 .clean-design .features-header h2, .branding .features-header h2, .responsive .features-header h2, .development .features-header h2 {
-  font-size: 20px;
+  font-size: 22px;
   font-weight: bold;
   padding: 30px 0 20px 0;
   color: #363636;
 }
 
 .clean-design div p, .branding div p, .responsive div p, .development div p {
-  line-height: 20px;
+  line-height: 18px;
   color: #929292;
-  font-size: 12px;
+  font-size: 14px;
+  font-family: 'Roboto'
 }
 
 .clean-design .bot-li, .branding .bot-li, .responsive .bot-li, .development .bot-li {
@@ -258,7 +259,7 @@ body {
 }
 
 .counter-wrapper .counter-container {
-  padding: 77px 0 65px 0;
+  padding: 71px 0 65px 0;
 }
 
 .counter-wrapper .counter-container .counter {
@@ -302,21 +303,23 @@ body {
 }
 
 .clients div h1, .projects div h1, .likes div h1, .launched div h1 {
-  font-size: 43px;
-  font-weight: bold;
+  font-size: 48px;
+  font-weight: 600;
   color: #fff;
 }
 
 .clients div h2, .projects div h2, .likes div h2, .launched div h2 {
   color: #e5493a;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: bold;
   padding: 30px 0 20px 0;
 }
 
 .clients div p, .projects div p, .likes div p, .launched div p {
   color: #979797;
-  font-size: 12px;
+  font-size: 14px;
+  line-height: 18px;
+  font-family: 'Roboto'
 }
 
 .clients .bot-li, .projects .bot-li, .likes .bot-li, .launched .bot-li {
@@ -348,7 +351,15 @@ body {
 .blog-wrapper {
   background-color: #fff;
   width: 100%;
-  height: 811px;
+}
+
+.blog-wrapper .blog-container {
+  padding: 65px 10px 105px 10px;
+}
+
+.blog-wrapper .blog-container .blog {
+  margin: 0 auto;
+  max-width: 73.125em;
 }
 
 .sales-wrapper {
