@@ -127,12 +127,12 @@ body {
 }
 
 .slogan-wrapper .slogan-container .slogan .head {
-  font-size: 28px;
+  font-size: 32px;
   font-weight: 600;
 }
 
 .slogan-wrapper .slogan-container .slogan .sub-head {
-  font-size: 20px;
+  font-size: 24px;
   line-height: 32px;
 }
 
@@ -148,6 +148,7 @@ body {
 .feature-wrapper .features-container .features {
   margin: 0 auto;
   max-width: 73.125em;
+  padding: 0 5px;
 }
 
 .features .features-l {
@@ -174,8 +175,8 @@ body {
 }
 
 .features .features-l .branding {
-  background-image: url('../images/branding.png');
   float: right;
+  background-image: url('../images/branding.png');
 }
 
 .features .features-r .responsive {
@@ -188,6 +189,35 @@ body {
   float: right;
 }
 
+.clean-design div {
+  padding: 0 19px 0 0;
+}
+
+.branding div {
+  padding: 0 19px 0 19px;
+} 
+
+.responsive div {
+  padding: 0 19px 0 19px;
+} 
+
+.development div {
+  padding: 0 0 0 19px;
+}
+
+.clean-design div h2, .branding div h2, .responsive div h2, .development div h2 {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 30px 0 20px 0;
+  color: #363636;
+}
+
+.clean-design div p, .branding div p, .responsive div p, .development div p {
+  line-height: 20px;
+  color: #929292;
+  font-size: 12px;
+}
+
 .clean-design .bot-li, .branding .bot-li, .responsive .bot-li, .development .bot-li {
   background-color: #e5493a;
   width: 70px;
@@ -195,6 +225,31 @@ body {
   bottom: 0;
   left: 50%;
   margin: 0 auto;
+  margin-top: 30px;
+}
+
+.features .features-l .clean-design:hover {
+  background-image: url('../images/clean-design-actv.png');
+}
+
+.features .features-l .branding:hover {
+  background-image: url('../images/branding-actv.png');
+}
+
+.features .features-r .responsive:hover {
+  background-image: url('../images/responsive-actv.png');
+}
+
+.features .features-r .development:hover {
+  background-image: url('../images/dev-actv.png');
+}
+
+.clean-design:hover div h2, .branding:hover div h2, .responsive:hover div h2, .development:hover div h2 {
+  color: #e5493a;
+}
+
+.clean-design:hover div p, .branding:hover div p, .responsive:hover div p, .development:hover div p {
+  color: #363636;
 }
 
 .counter-wrapper {
