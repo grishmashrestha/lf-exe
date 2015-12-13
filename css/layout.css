@@ -319,7 +319,7 @@ body {
   color: #979797;
   font-size: 14px;
   line-height: 18px;
-  font-family: 'Roboto'
+  font-family: 'Roboto';
 }
 
 .clients .bot-li, .projects .bot-li, .likes .bot-li, .launched .bot-li {
@@ -354,12 +354,118 @@ body {
 }
 
 .blog-wrapper .blog-container {
-  padding: 65px 10px 105px 10px;
+  padding: 62px 10px 105px 10px;
 }
 
 .blog-wrapper .blog-container .blog {
   margin: 0 auto;
   max-width: 73.125em;
+}
+
+.blog-wrapper .blog-container .blog .blog-headers {
+  width: 548px;
+  text-align: center;  
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+
+
+.blog-wrapper .blog-container .blog .blog-headers .blog-header-deets  h2 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #363636;
+  padding: 0 0 17px 0;
+}
+
+.blog-wrapper .blog-container .blog .blog-headers .blog-header-deets p {
+  color: #979797;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: 'Roboto';
+}
+
+.bot-li-blog {
+  width: 170px;
+  height: 2px;
+  background-color: #363636;
+  bottom: 0;
+  left: 50%;
+  margin: 0 auto;
+  margin-top: 29px;
+}
+
+.blog-contents .blog-contents-l {
+  float: left;
+  width: 68.3760683760684%;
+}
+
+.blog-contents .blog-contents-l .blog-l-left {
+  float: left;
+  width: 50%;
+}
+
+.blog-contents .blog-contents-l .blog-l-right {
+  float: right;
+  width: 50%;
+}
+
+.blog-contents .blog-contents-r {
+  float: right;
+  width: 31.6239316239316%;
+}
+
+.blog-inner {
+  background-color: #fafafa;
+}
+
+.blog-l-left .blog-inner, .blog-l-right .blog-inner {
+  margin-right: 30px;
+}
+
+.blog-deets {
+  padding: 30px 30px 0 30px;  
+}
+
+.blog-date {
+  color: #979797;
+  padding-bottom: 19px;
+  font-family: 'Roboto';
+  font-size: 14px;
+}
+
+.blog-deets h3 {
+  font-size: 18px;
+  font-weight: 600;
+  padding-bottom: 18px;
+  line-height: 18px;
+  color: #3a3a3a;
+}
+
+.blog-desc {
+  font-size: 14px;
+  line-height: 20px;
+  color: #979797;
+  font-family: 'Roboto';
+}
+
+.read-more {
+  font-size: 14px;
+  padding: 25px 0 31px 0;
+  display: block;
+  font-family: 'Roboto';
+}
+
+.read-more a {
+  text-decoration: none;
+  color: #3a3a3a; 
+}
+
+.bot-li-blog-mini {
+  width: 70px;
+  height: 2px;
+  background-color: #363636;
+  bottom: 0;
+  left: 0;
 }
 
 .sales-wrapper {
