@@ -89,20 +89,43 @@ body {
 }
 
 .sliderLong {
-  width: 9600px;
+  width: 500%;
 }
 
 .sliderLong .sliderEl {
   float: left;
-  width: 1920px;
+  width: 20%;
   height: 707px;
 }
 
 .sliderLong .sliderEl1 {
-  background-image: url('../images/slider2.png');
-  background-position: 100% 100%;
-  background-size: cover;
+  background-image: url('../images/slider1.png');
   background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.sliderLong .sliderEl2 {
+  background-image: url('../images/slider2.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.sliderLong .sliderEl3 {
+  background-image: url('../images/slider3.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.sliderLong .sliderEl4 {
+  background-image: url('../images/slider4.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.sliderLong .sliderEl5 {
+  background-image: url('../images/slider5.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .sliderLong .sliderEl .sliderDesc {
