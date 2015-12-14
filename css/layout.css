@@ -363,7 +363,7 @@ body {
 }
 
 .blog-wrapper .blog-container .blog .blog-headers {
-  width: 548px;
+  width: 46.83760683760684%;
   text-align: center;  
   margin: 0 auto;
   padding-bottom: 40px;
@@ -454,7 +454,7 @@ body {
 
 .read-more {
   font-size: 14px;
-  padding: 25px 0 31px 0;
+  padding: 21px 0 31px 0;
   display: block;
   font-family: 'Roboto';
 }
@@ -536,7 +536,6 @@ body {
 .footer-wrapper {
   background-color: #252525;
   width: 100%;
-  height: 518px;
 }
 
 .footer-wrapper .footer-container {
@@ -589,7 +588,7 @@ body {
 .footer-l-left .inner-l-left .email-newsletter p {
   font-family: 'Roboto';
   color: #fff;
-  font-size: 16px;
+  font-size: 18px;
   padding-bottom: 23px;
 }
 
@@ -622,6 +621,7 @@ body {
 
 .footer-l-right .inner-l-right h2 {
   font-size: 24px;
+  font-weight: 600;
   color: #fff;
 }
 
@@ -641,6 +641,10 @@ body {
 .each-latest-news {
   padding: 20px 0;
   border-bottom: solid 1px #363636;
+}
+
+.each-latest-news:last-child {
+  border: none;
 }
 
 .each-latest-news img {
@@ -670,15 +674,23 @@ body {
 
 .footer-r-left .inner-r-left {
   padding: 0 15px;
+  color: #959595;
+  font-family: 'Roboto';
 }
 
 .footer-r-left .inner-r-left h2 {
   font-size: 24px;
+  font-weight: 600;
   color: #fff;
 }
 
-.twitter-list {
-  padding-top: 30px;  
+.each-latest-tweet {
+  padding-top: 30px;    
+  border-bottom: solid 1px #363636;
+}
+
+.each-latest-tweet:last-child {
+  border: none;
 }
 
 .each-latest-tweet img {
@@ -687,7 +699,17 @@ body {
 }
 
 .twitter-deets {
-  float: left;
+  padding-left: 38px;
+}
+
+.twitter-deets p {
+  font-size: 13px;
+  line-height: 20px;
+  padding-bottom: 18px;
+}
+
+.twitter-time {
+  padding-bottom: 22px;
 }
 
 .footer-r-right {
@@ -697,9 +719,40 @@ body {
 
 .footer-r-right .inner-r-right {
   padding-left: 15px;
+  color: #959595;
+  font-family: 'Roboto';
 }
 
 .footer-r-right .inner-r-right h2 {
   font-size: 24px;
+  font-weight: 600;
   color: #fff;
 }
+
+.contact-deets {
+  padding-top: 10px;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.address, .phone, .our-email, .follow-us {
+  border-bottom: solid 1px #363636;
+  padding: 20px 0;
+}
+
+.address .hd, .phone .hd, .our-email .hd, .follow-us .hd {
+  float: left;
+}
+
+.address .info, .phone .info, .our-email .info, .follow-us .info {
+  padding-left: 100px;
+}
+
+.address .info a, .phone .info a, .our-email .info a, .follow-us .info a {
+  padding-left: 3px;
+}
+
+.address .info a img, .phone .info a img, .our-email .info a img, .follow-us .info a img {
+  display: inline;
+}
+
