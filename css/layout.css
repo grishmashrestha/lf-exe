@@ -119,7 +119,7 @@ body {
   padding: 40px 10px 56px 10px;
 }
 
-.slogan-wrapper .slogan-container .slogan p {
+.slogan-wrapper .slogan-container .slogan {
   margin: 0 auto;
   max-width: 73.125em;
   text-align: center;
@@ -418,6 +418,10 @@ body {
   background-color: #fafafa;
 }
 
+.blog-inner img {
+  width: 100%;
+}
+
 .blog-l-left .blog-inner, .blog-l-right .blog-inner {
   margin-right: 30px;
 }
@@ -471,7 +475,62 @@ body {
 .sales-wrapper {
   background-color: #e5493a;
   width: 100%;
-  height: 307px;
+}
+
+.sales-wrapper .sales-container {
+  padding: 70px 10px 80px 10px;
+}
+
+.sales-wrapper .sales-container .sales {
+  margin: 0 auto;
+  max-width: 73.125em;
+  text-align: center;
+  color: #fff;
+}
+
+.sales h1 {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.sales p {
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.sales-btns {
+  width: 31.62393162393162%;
+  margin: 0 auto;
+  padding-top: 38px;
+}
+
+.buy-now {
+  background-image: url('../images/buy-this-btn.png');
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  float: left;
+  padding: 20px 33px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+  margin: 0;
+  background-size: 100% 100%;
+}
+
+.screenshots {
+  background-image: url('../images/screenshot.png');
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  float: right;
+  padding: 20px 33px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+  margin: 0;
+  background-size: 100% 100%;
 }
 
 .footer-wrapper {
