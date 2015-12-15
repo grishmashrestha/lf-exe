@@ -76,4 +76,4 @@ function clickMe (sliderId) {
 
 trackerChanger();
 var sliderId = setInterval(slide, 3000);
-// clickMe(sliderId);
+clickMe(sliderId);

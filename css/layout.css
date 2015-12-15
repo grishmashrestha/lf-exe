@@ -82,6 +82,7 @@ body {
 
 .slider-wrapper {
   width: 100%;
+  position: relative;
 }
 
 .sliderContainer {
@@ -95,11 +96,10 @@ body {
 .sliderLong .sliderEl {
   float: left;
   width: 20%;
-  height: 707px;
 }
 
 .sliderLong .sliderEl1 {
-  background-image: url('../images/slider1.png');
+  background-image: url('../images/download.jpg');
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -128,9 +128,59 @@ body {
   background-size: 100%;
 }
 
-.sliderLong .sliderEl .sliderDesc {
-  margin: 0 auto;
+.sliderLong .sliderEl .sliderDescContainer {
+  padding: 200px 0 209px 0;
+}
+
+.sliderLong .sliderEl .sliderDescContainer .sliderDesc {
+  margin: 0 auto; 
   max-width: 73.125em;
+  color: #333333;
+}
+
+.smart-moves {
+  font-size: 70px;
+  font-weight: 800;
+  line-height: 50px;
+}
+
+.sbusiness {
+  font-size: 51px;
+  font-weight: 800;
+  padding: 20px 0 28px 0;
+  line-height: 40px;
+}
+
+.sbusiness span {
+  color: #e9483e;
+}
+
+.slider-info {
+  color: #646462;
+  font-size: 26px;
+  line-height: 28px;
+}
+
+.slider-buy-btn {
+  background-image: url('../images/slider-btn.png');
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+  padding: 20px 33px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+  margin: 0;
+  margin-top: 50px;
+}
+
+.slider-buy-btn:hover {
+  background-image: url('../images/slider-btn-hover.png');
+}
+
+.slider-buy-btn a {
+  text-decoration: none;
+  color: #fff;
 }
 
 .slogan-wrapper {
@@ -779,3 +829,13 @@ body {
   display: inline;
 }
 
+.toTopIco {
+  text-decoration: none;
+  bottom: 25px;
+  right: 25px;
+  z-index: 150;
+  width: 49px;
+  height: 49px;
+  position: fixed;
+  background-image: url('../images/to-top.png');
+}
