@@ -833,9 +833,10 @@ body {
   text-decoration: none;
   bottom: 25px;
   right: 25px;
-  z-index: 150;
+  z-index: 3;
   width: 49px;
   height: 49px;
   position: fixed;
   background-image: url('../images/to-top.png');
+  display: none;
 }
