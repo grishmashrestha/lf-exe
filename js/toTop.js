@@ -22,7 +22,7 @@ function tracker () {
   }
 }
 
-function counterInit() {
+function countersInit() {
   var counters = document.getElementsByClassName("runCounters");
   var length = counters.length;
   for (var j=0; j<length; j++) {
@@ -55,5 +55,7 @@ function createCounter(counter) {
     countId = setInterval(incrCount,5);
   }
 }
+
+
 
 
