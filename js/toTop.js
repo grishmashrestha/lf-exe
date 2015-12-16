@@ -56,6 +56,8 @@ function createCounter(counter) {
   }
 }
 
-
-
+var animateToTop = new Animator(document.documentElement);
+toTop.onclick = function () {
+  animateToTop.scrollVertically(0, 700);
+};
 

@@ -37,4 +37,20 @@ function Animator(element) {
 		var initial = parseInt(style.getPropertyValue(cssProperty));
 		this.animate(cssProperty, value, 300);
 	}
+
+	this.scrollVertically = function(value, duration) {
+		var initial = window.scrollY;
+
+		var step = (value - initial) / (duration / 50);
+
+		var counter = 0;
+		var intervalId = setInterval(function() {
+			counter++;
+			var current = step * counter;
+			 window.scrollTo(0,initial + current);
+			
+			if (counter >= duration/50)
+				clearInterval(intervalId);
+		}, 50);
+	}
 }
