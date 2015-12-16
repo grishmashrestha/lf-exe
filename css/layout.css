@@ -99,31 +99,31 @@ body {
 }
 
 .sliderLong .sliderEl1 {
-  background-image: url('../images/download.jpg');
+  background-image: url('../images/slider1.jpg');
   background-repeat: no-repeat;
   background-size: 100%;
 }
 
 .sliderLong .sliderEl2 {
-  background-image: url('../images/slider2.png');
+  background-image: url('../images/slider2.jpg');
   background-repeat: no-repeat;
   background-size: 100%;
 }
 
 .sliderLong .sliderEl3 {
-  background-image: url('../images/slider3.png');
+  background-image: url('../images/slider3.jpg');
   background-repeat: no-repeat;
   background-size: 100%;
 }
 
 .sliderLong .sliderEl4 {
-  background-image: url('../images/slider4.png');
+  background-image: url('../images/slider4.jpg');
   background-repeat: no-repeat;
   background-size: 100%;
 }
 
 .sliderLong .sliderEl5 {
-  background-image: url('../images/slider5.png');
+  background-image: url('../images/slider5.jpg');
   background-repeat: no-repeat;
   background-size: 100%;
 }
