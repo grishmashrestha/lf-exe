@@ -35,6 +35,6 @@ function Animator(element) {
 	this.finish = function(cssProperty, value, intervalId) {
 		clearInterval(intervalId);
 		var initial = parseInt(style.getPropertyValue(cssProperty));
-		this.animate(cssProperty, value, 400);
+		this.animate(cssProperty, value, 300);
 	}
 }

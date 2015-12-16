@@ -45,7 +45,7 @@ function slide() {
   }
 
   var ml = (imgWidth * (active-1) * -1);
-  animator.animate("margin-left", ml, 1000);
+  animator.animate("margin-left", ml, 700);
   trackerChanger();
 }
 
