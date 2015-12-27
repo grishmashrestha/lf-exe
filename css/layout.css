@@ -226,7 +226,6 @@ body {
 .feature-wrapper .features-container .features {
   margin: 0 auto;
   max-width: 73.125em;
-  padding: 0 5px;
 }
 
 .features .features-l {
@@ -245,6 +244,22 @@ body {
   background-position: 50% 0;
   text-align: center;
   width: 50%;
+}
+
+.clean-design {
+  background-position: 85px 0;
+}
+
+.branding {
+  background-position: 92px 0;
+}
+
+.responsive {
+  background-position: 100px 0;
+}
+
+.development {
+  background-position: 108px 0;
 }
 
 .features .features-l .clean-design {
@@ -302,9 +317,24 @@ body {
   width: 70px;
   height: 2px;
   bottom: 0;
-  left: 50%;
   margin: 0 auto;
   margin-top: 30px;
+}
+
+.clean-design .bot-li {
+  margin-left: 100px;
+}
+
+.branding .bot-li {
+  margin-left: 107px;
+}
+
+.responsive .bot-li {
+  margin-left: 115px;
+}
+
+.development .bot-li {
+  margin-left: 124px;
 }
 
 .features .features-l .clean-design:hover {
