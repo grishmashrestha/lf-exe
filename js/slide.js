@@ -8,6 +8,8 @@ var imgWidth = parseInt(screenSize.getPropertyValue('width'));
 var direction = true;
 
 var tracker = document.getElementsByClassName('tracker')[0];
+tracker.style.left = ((window.innerWidth/2) - (70/2)) + 'px';
+
 for(var i = 1; i<=slides.length; i++){
   var div = document.createElement('div');
   div.id = i;
