@@ -1,0 +1,36 @@
+@media screen and (max-width: 1024px) {
+  .header .menu {
+    padding-left: 40px;
+  }
+
+  .header .menu ul li {
+    padding: 0 10px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .header-container {
+    padding: 24px 10px 24px 10px;
+  }
+
+  .header .menu {
+    width: 100%;
+    float: left;
+    padding-left: 0;
+    padding-top: 10px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .header .menu ul li {
+    padding: 0 10px 0 20px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header .menu ul li {
+    padding: 0 10px 0 20px;
+  }
+}
+
+
