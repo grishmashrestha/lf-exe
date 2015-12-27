@@ -375,12 +375,12 @@ body {
   max-width: 73.125em;
 }
 
-.counter-wrapper .counter-container .counter .counter-l {
+.counter .counter-l {
   width: 50%;
   float: left;
 }
 
-.counter-wrapper .counter-container .counter .counter-r {
+.counter .counter-r {
   width: 50%;
   float: right;
   text-align: center;
