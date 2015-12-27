@@ -32,7 +32,7 @@ body {
 
 .header .menu ul li {
   float: left; 
-  padding: 0 21px; 
+  padding: 0 13px 0 30px; 
 }
 
 .header .menu ul li:first-child {
@@ -74,7 +74,6 @@ body {
   font-weight: 900; 
   font-size: 14px;
   line-height: 14px;
-  font-family: 'Roboto';
 }
 
 .header .menu ul li.active a {
