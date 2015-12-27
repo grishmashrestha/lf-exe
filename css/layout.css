@@ -129,7 +129,7 @@ body {
 }
 
 .sliderLong .sliderEl .sliderDescContainer {
-  padding: 200px 0 209px 0;
+  padding: 200px 0 208px 0;
 }
 
 .sliderLong .sliderEl .sliderDescContainer .sliderDesc {
@@ -147,7 +147,7 @@ body {
 .sbusiness {
   font-size: 51px;
   font-weight: 800;
-  padding: 20px 0 28px 0;
+  padding: 20px 0 23px 0;
   line-height: 40px;
 }
 
@@ -157,8 +157,9 @@ body {
 
 .slider-info {
   color: #646462;
-  font-size: 26px;
-  line-height: 28px;
+  font-size: 27px;
+  line-height: 31px;
+  font-weight: 400;
 }
 
 .slider-buy-btn {
@@ -190,6 +191,9 @@ body {
 
 .slogan-wrapper .slogan-container {
   padding: 40px 10px 56px 10px;
+  background-image: url('../images/triangle.png');
+  background-position: center bottom;
+  background-repeat: no-repeat;
 }
 
 .slogan-wrapper .slogan-container .slogan {
