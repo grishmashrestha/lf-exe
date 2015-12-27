@@ -61,7 +61,7 @@ body {
   background-color: #fff;
   height: 2px;
   width: 8px;
-  margin: 9px 0 10px 0;
+  margin: 9px 0 7px 0;
 }
 
 .header .menu ul li.active .act-li {
@@ -71,9 +71,10 @@ body {
 .header .menu ul li a {  
   text-decoration: none;
   color: #565656;
-  font-weight: bold; 
+  font-weight: 900; 
   font-size: 14px;
   line-height: 14px;
+  font-family: 'Roboto';
 }
 
 .header .menu ul li.active a {
@@ -201,7 +202,8 @@ body {
 
 .slogan-wrapper .slogan-container .slogan .head {
   font-size: 32px;
-  font-weight: 600;
+  font-weight: 800;
+  line-height: 30px;
 }
 
 .slogan-wrapper .slogan-container .slogan .sub-head {
@@ -527,7 +529,7 @@ body {
 
 .read-more {
   font-size: 14px;
-  padding: 21px 0 31px 0;
+  padding: 24px 0 31px 0;
   display: block;
   font-family: 'Roboto';
 }
@@ -651,7 +653,11 @@ body {
 }
 
 .footer-l-left .inner-l-left .more-deets .read-more a {
-  color: #e5493a;
+  color: #636363;
+}
+
+.footer-l-left .inner-l-left .more-deets .read-more a:hover {
+  color: #e5493a;  
 }
 
 .footer-l-left .inner-l-left .email-newsletter {
@@ -738,6 +744,14 @@ body {
 .each-latest-news .news-deets .news-date {
   padding-top: 16px;
   color: #484848;
+}
+
+.each-latest-news:hover .news-deets p {
+  color: #e5493a;
+}
+
+.each-latest-news:hover .news-deets p.news-date {
+  color: #fff;
 }
 
 .footer-r-left {
@@ -827,6 +841,15 @@ body {
 
 .address .info a img, .phone .info a img, .our-email .info a img, .follow-us .info a img {
   display: inline;
+}
+
+.our-email .info a {
+  text-decoration: none;
+  color: #959595;
+}
+
+.our-email .info a:hover {
+  color: #e5493a; 
 }
 
 .toTopIco {
