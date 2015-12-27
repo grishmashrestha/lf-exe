@@ -10,6 +10,25 @@
   .sliderLong .sliderEl .sliderDescContainer {
     padding: 80px 10px;
   }
+
+  .feature-wrapper .features-container {
+    padding: 40px 10px;
+  }
+
+  .features .features-l, .features .features-r {
+    width: 100%;
+    float: left;
+  }
+
+  .clean-design, .branding, .responsive, .development {
+    background-position: center top;
+    padding: 99px 0 20px 0;
+  }
+
+  .clean-design .bot-li, .branding .bot-li, .responsive .bot-li, .development .bot-li {
+    margin: 0 auto;
+    margin-top: 30px;
+  }
 }
 
 @media screen and (max-width: 800px) {
@@ -76,5 +95,11 @@
   .slogan-wrapper .slogan-container .slogan .sub-head {
     font-size: 18px;
   }
+
+  .clean-design, .branding, .responsive, .development {
+    width: 100%;
+    float: left;
+  }
+
 }
 
