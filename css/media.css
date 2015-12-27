@@ -88,6 +88,29 @@
     display: none;
   }
 
+  .blog-wrapper .blog-container {
+    padding: 30px 10px 30px 10px;
+  }
+
+  .blog-wrapper .blog-container .blog .blog-headers {
+    width: 100%;
+  }
+
+  .blog-contents .blog-contents-l, .blog-contents .blog-contents-r {
+    width: 100%;
+    float: left;
+  }
+
+  .blog-contents .blog-contents-l .blog-l-left, .blog-contents .blog-contents-l .blog-l-right {
+    width: 100%;
+    float: left;
+    padding-bottom: 20px;
+  }
+
+  .blog-l-left .blog-inner, .blog-l-right .blog-inner {
+    margin-right: 0;
+  }
+
 
 }
 
