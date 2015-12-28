@@ -586,7 +586,7 @@ body {
 }
 
 .sales-wrapper .sales-container {
-  padding: 70px 10px 80px 10px;
+  padding: 66px 10px 80px 10px;
 }
 
 .sales-wrapper .sales-container .sales {
@@ -599,7 +599,8 @@ body {
 .sales h1 {
   font-size: 32px;
   font-weight: 600;
-  line-height: 32px;
+  line-height: 36px;
+  word-spacing: 1px;
 }
 
 .sales p {
@@ -608,16 +609,25 @@ body {
 }
 
 .sales-btns {
-  width: 31.62393162393162%;
   margin: 0 auto;
   padding-top: 38px;
+  width: 100%;
+}
+
+.buy-now-div {
+  float: left;
+  margin-left: 401px;
+}
+
+.screenshots-div {
+  float: right;
+  margin-right: 401px;
 }
 
 .buy-now {
-  background-image: url('../images/buy-this-btn.png');
+  background-image: url('../images/screenshot.png');
   background-position: 50% 50%;
   background-repeat: no-repeat;
-  float: left;
   padding: 20px 33px;
   text-decoration: none;
   color: #fff;
@@ -625,20 +635,25 @@ body {
   font-size: 14px;
   margin: 0;
   background-size: 100% 100%;
+  line-height: 54px;
 }
 
 .screenshots {
   background-image: url('../images/screenshot.png');
   background-position: 50% 50%;
   background-repeat: no-repeat;
-  float: right;
-  padding: 20px 33px;
+  padding: 20px 34px;
   text-decoration: none;
   color: #fff;
   font-weight: 600;
   font-size: 14px;
   margin: 0;
   background-size: 100% 100%;
+  line-height: 54px;
+}
+
+.buy-now:hover, .screenshots:hover {
+  background-image: url('../images/buy-this-btn.png');
 }
 
 .footer-wrapper {

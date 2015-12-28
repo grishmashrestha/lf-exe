@@ -1,3 +1,23 @@
+@media screen and (max-width: 1180px) {
+  .buy-now-div {
+    margin-left: 370px;
+  }
+
+  .screenshots-div {
+    margin-right: 370px;
+  }
+}
+
+@media screen and (max-width: 1120px) {
+  .buy-now-div {
+    margin-left: 300px;
+  }
+
+  .screenshots-div {
+    margin-right: 300px;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .header .menu {
     padding-left: 40px;
@@ -41,6 +61,15 @@
   .clients, .projects, .likes, .launched {
     padding-bottom: 20px;
   }
+
+  .buy-now-div {
+    margin-left: 220px;
+  }
+
+  .screenshots-div {
+    margin-right: 220px;
+  }
+
 }
 
 @media screen and (max-width: 800px) {
@@ -59,6 +88,15 @@
     padding: 40px 10px;
   }
 
+  .sales-wrapper .sales-container {
+    padding: 30px 10px;
+  }
+
+  .buy-now-div, .screenshots-div {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 10px;
+  }
 }
 
 @media screen and (max-width: 640px) {
@@ -110,8 +148,6 @@
   .blog-l-left .blog-inner, .blog-l-right .blog-inner {
     margin-right: 0;
   }
-
-
 }
 
 @media screen and (max-width: 480px) {
