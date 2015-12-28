@@ -698,8 +698,12 @@ body {
   font-family: 'Roboto';
   font-size: 14px;
   line-height: 20px;
+  word-spacing: 1px;
 }
 
+.footer-l-left .inner-l-left .more-deets .read-more {
+  padding-top: 19px;
+}
 .footer-l-left .inner-l-left .more-deets .read-more a {
   color: #636363;
 }
@@ -709,14 +713,16 @@ body {
 }
 
 .footer-l-left .inner-l-left .email-newsletter {
-  padding-bottom: 20px;
+  padding-bottom: 16px;
 }
 
 .footer-l-left .inner-l-left .email-newsletter p {
   font-family: 'Roboto';
   color: #fff;
   font-size: 18px;
-  padding-bottom: 23px;
+  font-weight: 600;
+  padding-top: 12px;
+  padding-bottom: 19px;
 }
 
 .s-bar {
@@ -724,7 +730,8 @@ body {
   border: none;
   width: 231px;
   color: #aaa;
-  font-size: 12px;
+  font-size: 13px;
+  word-spacing: 2px;
   padding: 0 20px;
   height: 43px;
   color: #636363;
@@ -735,6 +742,7 @@ body {
   font-size: 14px;
   text-decoration: none;
   color: #636363;
+  word-spacing: 1px;
 }
 
 .footer-l-right {
@@ -743,17 +751,18 @@ body {
 }
 
 .footer-l-right .inner-l-right {
-  padding: 0 15px;
+  padding: 0 15px 0 8px;
 }
 
 .footer-l-right .inner-l-right h2 {
   font-size: 24px;
   font-weight: 600;
   color: #fff;
+  line-height: 21px;
 }
 
 .footer-bot-li {
-  margin-top: 21px;
+  margin-top: 23px;
   background-color: #e5493a;
   width: 70px;
   height: 2px;
@@ -762,7 +771,7 @@ body {
 }
 
 .latest-news-list {
-  padding-top: 11px;
+  padding-top: 10px;
 }
 
 .each-latest-news {
@@ -776,21 +785,24 @@ body {
 
 .each-latest-news img {
   float: left;
-  padding-right: 20px;
+  padding-right: 14px;
 }
 
 .each-latest-news .news-deets {
+  float: right;
+  width: 180px;
 }
 
 .each-latest-news .news-deets p {
   color: #959595;
   font-family: 'Roboto';
   font-size: 13px;
-  line-height: 20px;
+  line-height: 18px;
+  word-spacing: 1px;
 }
 
 .each-latest-news .news-deets .news-date {
-  padding-top: 16px;
+  padding-top: 12px;
   color: #484848;
 }
 
@@ -810,17 +822,21 @@ body {
 .footer-r-left .inner-r-left {
   padding: 0 15px;
   color: #959595;
-  font-family: 'Roboto';
 }
 
 .footer-r-left .inner-r-left h2 {
   font-size: 24px;
   font-weight: 600;
   color: #fff;
+  line-height: 21px;
+}
+
+.twitter-list {
+  padding-top: 10px;
 }
 
 .each-latest-tweet {
-  padding-top: 30px;    
+  padding-top: 20px;    
   border-bottom: solid 1px #363636;
 }
 
@@ -838,9 +854,15 @@ body {
 }
 
 .twitter-deets p {
+  padding-bottom: 16px;
+  font-family: 'Roboto';
   font-size: 13px;
-  line-height: 20px;
-  padding-bottom: 18px;
+  line-height: 18px;
+  word-spacing: 1px;
+}
+
+.twitter-deets p .twitter-span {
+  color: #fff;
 }
 
 .twitter-time {
@@ -853,25 +875,30 @@ body {
 }
 
 .footer-r-right .inner-r-right {
-  padding-left: 15px;
+  padding-left: 23px;
   color: #959595;
-  font-family: 'Roboto';
 }
 
 .footer-r-right .inner-r-right h2 {
   font-size: 24px;
   font-weight: 600;
   color: #fff;
+  line-height: 21px;
 }
 
 .contact-deets {
   padding-top: 10px;
   font-size: 13px;
-  line-height: 20px;
+  line-height: 18px;
+  font-family: 'Roboto';
 }
 
-.address, .phone, .our-email, .follow-us {
-  border-bottom: solid 1px #363636;
+.address {
+  padding: 20px 0;
+}
+
+.phone, .our-email, .follow-us {
+  border-top: solid 1px #363636;
   padding: 20px 0;
 }
 
