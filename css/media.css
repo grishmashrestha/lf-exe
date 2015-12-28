@@ -1,0 +1,210 @@
+@media screen and (max-width: 1180px) {
+  .buy-now-div {
+    margin-left: 370px;
+  }
+
+  .screenshots-div {
+    margin-right: 370px;
+  }
+}
+
+@media screen and (max-width: 1120px) {
+  .buy-now-div {
+    margin-left: 300px;
+  }
+
+  .screenshots-div {
+    margin-right: 300px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .header .menu {
+    padding-left: 40px;
+  }
+
+  .header .menu ul li {
+    padding: 0 10px;
+  }
+
+  .sliderLong .sliderEl .sliderDescContainer {
+    padding: 80px 10px;
+  }
+
+  .feature-wrapper .features-container {
+    padding: 40px 10px;
+  }
+
+  .features .features-l, .features .features-r {
+    width: 100%;
+    float: left;
+  }
+
+  .clean-design, .branding, .responsive, .development {
+    background-position: center top;
+    padding: 99px 0 20px 0;
+  }
+
+  .clean-design .bot-li, .branding .bot-li, .responsive .bot-li, .development .bot-li {
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+
+  .counter-wrapper .counter-container {
+    padding: 30px 0;
+  }
+  .counter .counter-l, .counter .counter-r {
+    width: 100%;
+    float: left;
+  }
+
+  .clients, .projects, .likes, .launched {
+    padding-bottom: 20px;
+  }
+
+  .buy-now-div {
+    margin-left: 220px;
+  }
+
+  .screenshots-div {
+    margin-right: 220px;
+  }
+
+  .footer-wrapper .footer-container {
+    padding: 50px 20px;
+  }
+
+  .footer-wrapper .footer-container .footer .footer-l, .footer-wrapper .footer-container .footer .footer-r {
+    width: 100%;
+  }
+
+  .address .info, .phone .info, .our-email .info, .follow-us .info {
+    padding-left: 60px;
+  }
+
+}
+
+@media screen and (max-width: 800px) {
+  .header-container {
+    padding: 24px 10px 24px 10px;
+  }
+
+  .header .menu {
+    width: 100%;
+    float: left;
+    padding-left: 0;
+    padding-top: 10px;
+  }
+
+  .sliderLong .sliderEl .sliderDescContainer {
+    padding: 40px 10px;
+  }
+
+  .sales-wrapper .sales-container {
+    padding: 30px 10px;
+  }
+
+  .buy-now-div, .screenshots-div {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 10px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .header .menu ul li {
+    padding: 0 10px 0 20px;
+  }
+
+  .smart-moves {
+    font-size: 50px;
+  }
+
+  .sbusiness {
+    font-size: 30px;
+    padding: 0 0 20px 0;
+  }
+
+  .slider-info {
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .slider-buy-btn {
+    display: none;
+  }
+
+  .tracker {
+    display: none;
+  }
+
+  .blog-wrapper .blog-container {
+    padding: 30px 10px 30px 10px;
+  }
+
+  .blog-wrapper .blog-container .blog .blog-headers {
+    width: 100%;
+  }
+
+  .blog-contents .blog-contents-l, .blog-contents .blog-contents-r {
+    width: 100%;
+    float: left;
+  }
+
+  .blog-contents .blog-contents-l .blog-l-left, .blog-contents .blog-contents-l .blog-l-right {
+    width: 100%;
+    float: left;
+    padding-bottom: 20px;
+  }
+
+  .blog-l-left .blog-inner, .blog-l-right .blog-inner {
+    margin-right: 0;
+  }
+
+  .s-bar {
+    width: 70%;
+    background-color: #171717;
+    background-image: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .header .menu ul li {
+    padding: 0 10px 0 20px;
+  }
+
+  .slider-wrapper {
+    display: none;
+  }
+
+  .slogan-wrapper .slogan-container {
+    padding: 40px 10px 40px 10px;
+  }
+  .slogan-wrapper .slogan-container .slogan .head {
+    font-size: 25px;
+  }
+
+  .slogan-wrapper .slogan-container .slogan .sub-head {
+    font-size: 18px;
+  }
+
+  .clean-design, .branding, .responsive, .development {
+    width: 100%;
+    float: left;
+  }
+
+  .clients, .projects, .likes, .launched {
+    width: 100%;
+    float: left;
+  }
+
+  .footer-l-left, .footer-l-right, .footer-r-left, .footer-r-right {
+    width: 100%;
+    padding-top: 10px;
+  }
+
+  .footer-l-left .inner-l-left {
+    padding: 0 15px;
+  }
+}
+

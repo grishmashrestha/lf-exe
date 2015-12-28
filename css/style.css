@@ -1,0 +1,51 @@
+.leftArrow {
+  width: 42px;
+  height: 42px;
+  position: absolute;
+  background: url('../images/slider-l-btn.png') no-repeat;
+  top: 50%;
+  left: 0;
+  z-index: 1;
+  float: left;
+  margin-left: 20px;
+}
+
+.leftArrow:hover {
+  background: url('../images/slider-l-btn-hover.png') no-repeat;
+}
+
+.rightArrow {
+  width: 42px;
+  height: 42px;
+  position: absolute;
+  background: url('../images/slider-r-btn.png') no-repeat;
+  top: 50%;
+  right: 0;
+  z-index: 1;
+  float: right;
+  margin-right: 20px;
+}
+
+.rightArrow:hover {
+  background: url('../images/slider-r-btn-hover.png') no-repeat;
+}
+
+
+.tracker {
+  float: left;
+  position: absolute;
+  z-index: 2;
+  bottom: 52px;
+}
+
+.tracker div{
+  float: left;  
+  background-image: url('../images/tracker.png');
+  height: 10px;
+  width: 10px;
+  margin: 0 5px 0 0;
+}
+
+.tracker div.active{
+  background-image: url('../images/activeTracker.png');
+}
