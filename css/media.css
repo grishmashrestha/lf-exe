@@ -70,6 +70,18 @@
     margin-right: 220px;
   }
 
+  .footer-wrapper .footer-container {
+    padding: 50px 20px;
+  }
+
+  .footer-wrapper .footer-container .footer .footer-l, .footer-wrapper .footer-container .footer .footer-r {
+    width: 100%;
+  }
+
+  .address .info, .phone .info, .our-email .info, .follow-us .info {
+    padding-left: 60px;
+  }
+
 }
 
 @media screen and (max-width: 800px) {
@@ -148,6 +160,12 @@
   .blog-l-left .blog-inner, .blog-l-right .blog-inner {
     margin-right: 0;
   }
+
+  .s-bar {
+    width: 70%;
+    background-color: #171717;
+    background-image: none;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -180,5 +198,13 @@
     float: left;
   }
 
+  .footer-l-left, .footer-l-right, .footer-r-left, .footer-r-right {
+    width: 100%;
+    padding-top: 10px;
+  }
+
+  .footer-l-left .inner-l-left {
+    padding: 0 15px;
+  }
 }
 
