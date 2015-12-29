@@ -500,7 +500,7 @@ body {
   position: relative;
 }
 
-.blog-inner .inner-img {
+.inner-img {
   width: 100%;
 }
 
@@ -509,14 +509,6 @@ body {
   top: 0;
   width: 100%;
   display: none;
-}
-
-.blog-inner .inner-img:hover + .blog-images-overlay {
-  display: block;
-}
-
-.blog-images-overlay:hover {
-  display: block;
 }
 
 .blog-el-ol {
@@ -615,6 +607,19 @@ body {
   background-color: #363636;
   bottom: 0;
   left: 0;
+}
+
+.blog-inner-content:hover .blog-images-overlay {
+  display: block;
+}
+
+.blog-inner-content:hover .blog-deets h3, .blog-inner-content:hover .read-more a {
+  color: #e44a42;
+}
+
+.blog-inner-content:hover .bot-li-blog-mini {
+  background-color: #e44a42;
+  width: 310px;
 }
 
 .sales-wrapper {
