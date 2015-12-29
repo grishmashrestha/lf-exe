@@ -511,6 +511,10 @@ body {
   display: none;
 }
 
+.blog-img-ol {
+  width: 100%;
+}
+
 .blog-el-ol {
   width: 100%;
 }
@@ -619,7 +623,7 @@ body {
 
 .blog-inner-content:hover .bot-li-blog-mini {
   background-color: #e44a42;
-  width: 310px;
+  width: 100%;
 }
 
 .sales-wrapper {
