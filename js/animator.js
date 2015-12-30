@@ -1,7 +1,6 @@
 function Animator(element) {
 	this.el = element;
 	var that = this;
-	var style = window.getComputedStyle(element);
 	var cssProperty = "margin-left";
 
 
@@ -9,7 +8,7 @@ function Animator(element) {
 		var style = window.getComputedStyle(element);
 		var initial = style.getPropertyValue(cssProperty);
 		initial = parseInt(initial);
-
+		
 		var step = (value - initial) / (duration / 50);
 
 		var counter = 0;
@@ -23,19 +22,14 @@ function Animator(element) {
 		}, 50);
 	}
 
-	// should stop the animation in current position
 	this.stop = function(cssProperty, value, intervalId) {
-		// alert('hello from stop');
-		var style = window.getComputedStyle(element);
-		var initial = parseInt(style.getPropertyValue(cssProperty));
 		clearInterval(intervalId);
 	}
 
-	// should stop the animation and element's properties should be at "end" value
 	this.finish = function(cssProperty, value, intervalId) {
 		clearInterval(intervalId);
 		var initial = parseInt(style.getPropertyValue(cssProperty));
-		this.animate(cssProperty, value, 300);
+		element.style[cssProperty] = value + 'px';
 	}
 
 	this.scrollVertically = function(value, duration) {
@@ -47,7 +41,7 @@ function Animator(element) {
 		var intervalId = setInterval(function() {
 			counter++;
 			var current = step * counter;
-			 window.scrollTo(0,initial + current);
+			window.scrollTo(0,initial + current);
 			
 			if (counter >= duration/50)
 				clearInterval(intervalId);
