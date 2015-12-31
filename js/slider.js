@@ -17,6 +17,14 @@ function Slider(noOfSlides) {
     trackerInit();
     trackButtons();
     sliderTimeout = setTimeout(moveSlides, 3000);
+
+    window.onresize = function(){
+       var heightOfContainer = document.getElementsByClassName('sliderDescContainer')[0];
+      for(var i = 0; i < noOfSlides; i++){
+        var slide = document.getElementsByClassName('sliderEl')[i];
+        slide.style.height = heightOfContainer.offsetHeight  + 'px';
+      }
+    }
   }
 
   var init = function() {
