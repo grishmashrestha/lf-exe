@@ -6,14 +6,17 @@ function Slider(noOfSlides) {
   var active = 1;
   var animator = new Animator(sliderLong);
   var direction = true;
-  var animationIntervalId;
-  var currentInitial = 0;
+  var sliderTimeout;
+  var fps = 10;
+  var mlCurrent = 0;
+  var ml = 0;
+  var intervalId;
 
   this.start = function() {
     init();
     trackerInit();
-    animationIntervalId = setInterval(moveSlides, 3000);
     trackButtons();
+    sliderTimeout = setTimeout(moveSlides, 3000);
   }
 
   var init = function() {
@@ -42,9 +45,9 @@ function Slider(noOfSlides) {
       direction = true;
     }
 
-    var ml = (100 * (active-1) * -1);
-    animate('margin-left', ml, 1000);
+    ml = (100 * (active-1) * -1);
     trackerChanger();
+    animate(1000);
   }
 
   var trackButtons = function() {
@@ -55,10 +58,10 @@ function Slider(noOfSlides) {
       if (active != 1){
         --active;
         ml = (100 * (active - 1) * -1);
-        finish('margin-left', ml);
+        clearTimeout(sliderTimeout);
+        clearInterval(intervalId);
         trackerChanger();  
-
-        // animationIntervalId = setInterval(moveSlides, 3000);      
+        animate(1000);
       }
     });
 
@@ -66,16 +69,16 @@ function Slider(noOfSlides) {
       if (active != slides.length){
         ++active;
         ml = (100 * (active - 1) * -1);
-        finish('margin-left', ml);
-        trackerChanger();
-
-        // animationIntervalId = setInterval(moveSlides, 3000);     
+        clearTimeout(sliderTimeout);
+        clearInterval(intervalId);
+        trackerChanger();  
+        animate(1000);
       }
     });
   }
 
   var trackerInit = function() {
-    tracker.style.left = ((window.innerWidth/2) - (70/2)) + 'px';
+    tracker.style.left = (50 - ((35/window.innerWidth)  * 100)) + '%';
 
     for(var i = 1; i <= slides.length; i++){
       var div = document.createElement('div');
@@ -83,9 +86,10 @@ function Slider(noOfSlides) {
       div.addEventListener('click', function(){
         active = this.id;
         ml = (100 * (active-1) * -1);
-        finish('margin-left', ml);
-        // animationIntervalId = setInterval(moveSlides, 3000);      
-        trackerChanger();
+        clearTimeout(sliderTimeout);
+        clearInterval(intervalId);
+        trackerChanger();  
+        animate(1000);
       });
       tracker.appendChild(div);
     }
@@ -98,40 +102,19 @@ function Slider(noOfSlides) {
     document.getElementById(active).className = 'active';
   }
 
-  var animate = function(cssProperty, value, duration) {
-    var style = window.getComputedStyle(sliderLong);
-    var initial = currentInitial;
-    initial = parseInt(initial);
+  var animate = function(duration) {
+    var counter = 0;
+    var step = (ml - mlCurrent)/(duration/fps);
 
-    console.log(initial + " " + value);
-    var tempInitial = initial;
-
-    var intervalLength = 10;
-
-    var step = (value - initial) / (duration / intervalLength);
-        
-    animationIntervalId = intervalTrigger(initial, cssProperty, step, duration, intervalLength);
-    currentInitial = value;    
-  }
-
-  var intervalTrigger = function(initial, cssProperty, step, duration, intervalLength){
-    var counter=0;
-    var tempInitial = initial;
-    var intervalId= window.setInterval(function() {
+    intervalId = setInterval(function(){
       counter++;
-      tempInitial+=step;
-      sliderLong.style[cssProperty] = tempInitial + '%';
-      if (counter >= duration/intervalLength){
-        window.clearInterval(intervalId);
+      mlCurrent += step;
+      sliderLong.style.marginLeft = mlCurrent + '%';
+      if (counter >= duration/fps) {
+        clearInterval(intervalId);
+        sliderTimeout = setTimeout(moveSlides, 3000);
       }
-    }, intervalLength);
-
-    return intervalId;
-  }
-
-  var finish = function(cssProperty, value) {
-    clearInterval(animationIntervalId);
-    sliderLong.style[cssProperty] = value + '%';
+    }, fps);
   }
 
 }
