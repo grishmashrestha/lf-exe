@@ -49,3 +49,23 @@
 .tracker div.active{
   background-image: url('../images/activeTracker.png');
 }
+
+input:focus {
+    outline-width: 0;
+}
+
+::-webkit-input-placeholder {
+  font-size: 15px;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+  font-size: 15px;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+  font-size: 15px;
+}
+
+:-ms-input-placeholder {  
+  font-size: 15px;
+}
