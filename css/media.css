@@ -1,10 +1,19 @@
 @media screen and (max-width: 1180px) {
+
+  .sliderLong .sliderEl .sliderDescContainer {
+    padding: 200px 10px 208px 10px;
+  }
+
   .buy-now-div {
     margin-left: 370px;
   }
 
   .screenshots-div {
     margin-right: 370px;
+  }
+
+  .s-bar {
+    width: 192px;
   }
 
   .each-latest-news img {
@@ -65,6 +74,7 @@
   .counter-wrapper .counter-container {
     padding: 30px 0;
   }
+
   .counter .counter-l, .counter .counter-r {
     width: 100%;
     float: left;
@@ -93,6 +103,10 @@
 
   .footer-r-right .inner-r-right, .footer-r-left .inner-r-left, .footer-l-right .inner-l-right {
     padding-left: 0;
+  }
+
+  .s-bar {
+    width: 231px;
   }
 
   .each-latest-news .news-deets {
@@ -147,7 +161,6 @@
 
   .sbusiness {
     font-size: 30px;
-    padding: 0 0 20px 0;
   }
 
   .slider-info {
@@ -193,7 +206,7 @@
   }
 
   .each-latest-news .news-deets {
-    width: 60%;
+    width: 55%;
   }
 }
 

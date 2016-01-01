@@ -99,7 +99,7 @@ body {
 }
 
 .sliderLong .sliderEl .sliderDescContainer {
-  padding: 200px 0 208px 0;
+  padding: 200px 10px 208px 10px;
   position: absolute;
   top: 0;
   width: 100%;
@@ -164,7 +164,7 @@ body {
 }
 
 .slogan-wrapper .slogan-container {
-  padding: 40px 10px 56px 10px;
+  padding: 40px 10px 50px 10px;
   background-image: url('../images/triangle.png');
   background-position: center bottom;
   background-repeat: no-repeat;
@@ -179,13 +179,14 @@ body {
 
 .slogan-wrapper .slogan-container .slogan .head {
   font-size: 32px;
-  font-weight: 800;
+  font-weight: 600;
   line-height: 30px;
+  word-spacing: 1px;
 }
 
 .slogan-wrapper .slogan-container .slogan .sub-head {
   font-size: 24px;
-  line-height: 32px;
+  line-height: 38px;
 }
 
 .feature-wrapper {
@@ -273,7 +274,8 @@ body {
 }
 
 .clean-design .features-header h2, .branding .features-header h2, .responsive .features-header h2, .development .features-header h2 {
-  font-size: 22px;
+  font-size: 24px;
+  line-height: 22px;
   font-weight: bold;
   padding: 30px 0 20px 0;
   color: #363636;
@@ -392,7 +394,8 @@ body {
 
 .clients div h2, .projects div h2, .likes div h2, .launched div h2 {
   color: #e5493a;
-  font-size: 22px;
+  font-size: 24px;
+  line-height: 22px;
   font-weight: bold;
   padding: 30px 0 20px 0;
 }
@@ -409,9 +412,25 @@ body {
   width: 70px;
   height: 2px;
   bottom: 0;
-  left: 50%;
+  left: 38.03418803418803%;
   margin: 0 auto;
   margin-top: 30px;
+}
+
+.clients .bot-li {
+  margin-left: 100px;
+}
+
+.projects .bot-li {
+  margin-left: 107px;
+}
+
+.likes .bot-li {
+  margin-left: 115px;
+}
+
+.launched .bot-li {
+  margin-left: 124px;
 }
 
 .clients .counterHeader {
@@ -436,7 +455,7 @@ body {
 }
 
 .blog-wrapper .blog-container {
-  padding: 62px 10px 105px 10px;
+  padding: 62px 10px 103px 10px;
 }
 
 .blog-wrapper .blog-container .blog {
@@ -461,7 +480,7 @@ body {
 
 .blog-wrapper .blog-container .blog .blog-headers .blog-header-deets p {
   color: #979797;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 20px;
   font-family: 'Roboto';
 }
@@ -520,10 +539,6 @@ body {
   width: 100%;
 }
 
-.blog-el-ol img {
-  width: 100%;
-}
-
 .blog-el-ol .blog-thumb-ol {
   position: absolute;
   top: 0;
@@ -574,7 +589,7 @@ body {
 
 .blog-date {
   color: #979797;
-  padding-bottom: 19px;
+  padding-bottom: 18px;
   font-family: 'Roboto';
   font-size: 14px;
 }
@@ -596,7 +611,7 @@ body {
 
 .read-more {
   font-size: 14px;
-  padding: 24px 0 31px 0;
+  padding: 27px 0 31px 0;
   display: block;
   font-family: 'Roboto';
 }
