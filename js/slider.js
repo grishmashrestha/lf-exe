@@ -86,7 +86,8 @@ function Slider(noOfSlides) {
   }
 
   var trackerInit = function() {
-    tracker.style.left = (50 - ((35/window.innerWidth)  * 100)) + '%';
+    debugger
+    tracker.style.left = (50 - ((35/(window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth))  * 100)) + '%';
 
     for(var i = 1; i <= slides.length; i++){
       var div = document.createElement('div');
