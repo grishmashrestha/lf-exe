@@ -1,6 +1,5 @@
 window.onscroll = function() {tracker()};
-var toTop = document.getElementsByClassName('toTopIco')[0];
-var style = window.getComputedStyle(toTop);
+var toTop = document.querySelectorAll('.toTopIco')[0];
 var startCounterAt = (1440 - window.innerHeight);
 var flagger = 1; // for executing counters only once
 
@@ -23,7 +22,7 @@ function tracker () {
 }
 
 function countersInit() {
-  var counters = document.getElementsByClassName("runCounters");
+  var counters = document.querySelectorAll('.runCounters');
   var length = counters.length;
   for (var j=0; j<length; j++) {
     var counter = counters[j];

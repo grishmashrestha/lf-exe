@@ -1,8 +1,8 @@
 function Slider(noOfSlides) {
   var noOfSlides = noOfSlides;
-  var sliderLong = document.getElementsByClassName('sliderLong')[0];
-  var slides = document.getElementsByClassName('sliderEl');
-  var tracker = document.getElementsByClassName('tracker')[0];
+  var sliderLong = document.querySelectorAll('.sliderLong')[0];
+  var slides = document.querySelectorAll('.sliderEl');
+  var tracker = document.querySelectorAll('.tracker')[0];
   var active = 1;
   var animator = new Animator(sliderLong);
   var direction = true;
@@ -19,9 +19,9 @@ function Slider(noOfSlides) {
     sliderTimeout = setTimeout(moveSlides, 3000);
 
     window.onresize = function(){
-       var heightOfContainer = document.getElementsByClassName('sliderDescContainer')[0];
+       var heightOfContainer = document.querySelectorAll('.sliderDescContainer')[0];
       for(var i = 0; i < noOfSlides; i++){
-        var slide = document.getElementsByClassName('sliderEl')[i];
+        var slide = document.querySelectorAll('.sliderEl')[i];
         slide.style.height = heightOfContainer.offsetHeight  + 'px';
       }
     }
@@ -29,9 +29,9 @@ function Slider(noOfSlides) {
 
   var init = function() {
     sliderLong.style.width = (100 * noOfSlides) + '%';
-    var heightOfContainer = document.getElementsByClassName('sliderDescContainer')[0];
+    var heightOfContainer = document.querySelectorAll('.sliderDescContainer')[0];
     for(var i = 0; i < noOfSlides; i++){
-      var slide = document.getElementsByClassName('sliderEl')[i];
+      var slide = document.querySelectorAll('.sliderEl')[i];
       slide.style.width = (100/noOfSlides) + '%';
       slide.style.height = heightOfContainer.offsetHeight  + 'px';
     }
@@ -59,8 +59,8 @@ function Slider(noOfSlides) {
   }
 
   var trackButtons = function() {
-    var leftBtn = document.getElementsByClassName('leftArrow')[0];
-    var rightBtn = document.getElementsByClassName('rightArrow')[0];
+    var leftBtn = document.querySelectorAll('.leftArrow')[0];
+    var rightBtn = document.querySelectorAll('.rightArrow')[0];
 
     leftBtn.addEventListener('click', function(event) {
       if (active != 1){
